@@ -1,0 +1,20 @@
+{
+  "name": "scan-review-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fixture repository for AI Scan Review. Lockfile only. DO NOT INSTALL.",
+  "workspaces": [
+    "packages/internal-utils"
+  ],
+  "dependencies": {
+    "express": "4.17.1",
+    "flatmap-stream": "0.1.1",
+    "lodash": "4.17.20",
+    "postcss": "7.0.35",
+    "request": "2.88.2",
+    "slash": "github:sindresorhus/slash#v5.1.0"
+  },
+  "devDependencies": {
+    "minimist": "1.2.0"
+  }
+}
